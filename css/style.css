@@ -145,10 +145,18 @@ html, body
 section 
 {
     display: flex;
+    flex-direction: column;
     height: 100vh;
      align-items: center;
     padding: 100px; 
     background-color: lightgreen;
+    margin-top: 60px;
+}
+
+section.home 
+{
+    flex-direction: row;
+    margin-top: 0;
 }
 
 .home-content
